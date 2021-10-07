@@ -19,3 +19,4 @@ final class QuotesServiceImpl: QuotesService {
         return try JSONDecoder().decode([Quote].self, from: data)
     }
 }
+// .decode(response.self)
