@@ -11,6 +11,7 @@
 		A6E5DBAF270E960A0082E52C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E5DBAE270E960A0082E52C /* ContentView.swift */; };
 		A6E5DBB1270E960D0082E52C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E5DBB0270E960D0082E52C /* Assets.xcassets */; };
 		A6E5DBB4270E960D0082E52C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E5DBB3270E960D0082E52C /* Preview Assets.xcassets */; };
+		A6E5DBBC270E962D0082E52C /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E5DBBB270E962D0082E52C /* APIConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A6E5DBAE270E960A0082E52C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6E5DBB0270E960D0082E52C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6E5DBB3270E960D0082E52C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6E5DBBB270E962D0082E52C /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		A6E5DBAB270E960A0082E52C /* SwiftUI Starter */ = {
 			isa = PBXGroup;
 			children = (
+				A6E5DBBA270E961B0082E52C /* Constants */,
 				A6E5DBAC270E960A0082E52C /* SwiftUI_StarterApp.swift */,
 				A6E5DBAE270E960A0082E52C /* ContentView.swift */,
 				A6E5DBB0270E960D0082E52C /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				A6E5DBB3270E960D0082E52C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6E5DBBA270E961B0082E52C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A6E5DBBB270E962D0082E52C /* APIConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				A6E5DBAF270E960A0082E52C /* ContentView.swift in Sources */,
 				A6E5DBAD270E960A0082E52C /* SwiftUI_StarterApp.swift in Sources */,
+				A6E5DBBC270E962D0082E52C /* APIConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
